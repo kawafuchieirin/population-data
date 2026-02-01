@@ -1,0 +1,32 @@
+# 環境変数・シークレット
+.env
+.env.local
+.env.*.local
+secrets.json
+*.secret
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+ENV/
+.venv/
+
+# Node
+node_modules/
+dist/
+*.local
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# キャッシュ
+backend/data/cache/
+*.log
